@@ -129,3 +129,79 @@ nav ul li a:hover{
     border-radius: 5px;
     text-align: center;
 }
+
+/*Stories Style*/
+.stories h2{
+    margin-top: 100px;
+    margin-bottom: 30px;
+    color:#5A67D8;
+}
+.stories article{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.stories article .article-body{
+    padding-left: 50px;
+}
+
+.stories article .article-body a{
+    text-decoration: none;
+    color:#5A67D8;
+}
+
+.stories article .article-body h3{
+    font-size: 18px;
+}
+
+.stories article img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*News Letter Style*/
+.newsletter{
+    max-width: 100%;
+    background-color:#48BB78;
+    color: white;
+    text-align: center;
+    margin-top:50px
+}
+
+.newsletter .container{
+    padding: 100px;
+    max-width: 450px;
+}
+
+.newsletter .container p{
+    text-align:left;
+}
+
+.newsletter .container form{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.newsletter .container form input{
+    width:200px;
+    height: 40px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.newsletter .container form button{
+    width:80px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #5A67D8;
+    color: white;
+}
+
+/*Footer Style*/
