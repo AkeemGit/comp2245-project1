@@ -1,12 +1,131 @@
 /* Add your CSS to this file */
 body {
     margin: 0;
+    font-family: system-ui, sans-serif ;
     font-size: 16px;
 }
 
+/*Header Style*/
 .container {
     margin: 0 auto;
     max-width: 960px;
     width: 100%;
 }
 
+header .container{
+    font-size: 18px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul li{
+    padding: 10px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+
+nav ul li a:hover{
+    color: #5A67D8;
+}
+
+/*Hero Section Style*/
+.overview-hero{
+    max-width: 100%;
+    background-color: #E2E8F0;
+}
+.overview-hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #E2E8F0;
+}
+
+.overview-hero .container img{
+    width:250px;
+    height:200px;
+}
+
+/*learn about style*/
+.learn-about .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto 1fr;
+    gap: 5px;
+    
+}
+
+.learn-about .container > h2{
+    align-items: center;
+    grid-column: 1/4;
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.learn-about .container .cards{
+    display: contents;
+}
+
+.learn-about .container .cards .card{
+    padding:10px;
+    border:2px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow:  0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.learn-about .container .cards .card h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+.learn-about .container .cards img{
+    width:100%;
+    height:250px;
+    
+}
+
+/*Texting Styling*/
+.testing{
+    max-width: 100%;
+    background-color: #4A5568;
+    color:white;
+    margin-top: 10px;
+}
+
+.testing .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 100px 150px;
+}
+
+.testing .container .testing-desciption{
+    grid-column: 1/3;
+    text-align: left;
+}
+
+.testing .container .cta a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+.testing .container .cta .btn{
+    background-color: #48BB78;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
