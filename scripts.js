@@ -19,16 +19,11 @@ document.addEventListener('DOMContentLoaded',function(){
         
         if (email == ''){
             message.innerHTML = `<b><p>Please enter an email address</p></b>`;
-            message.style.display = 'inline-block';
         }
         else if (isValidEmail(email)){
-            message.style.textAlign = 'center';
             message.innerHTML = `<b><p>Thank you! Your email address ${email} has been added to our mailing list!</p></b>`;
-            
-
         }else{
             message.innerHTML = `<b><p>Please enter a valid email address"</p></b>`;
-            message.style.display = 'inline-block';
         }  
     });
 
