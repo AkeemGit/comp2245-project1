@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded',function(){
         let email = emailInput.value.trim();
         
         if (email == ''){
-            message.innerHTML = `<b><p>Please enter an email address</p></b>`;
+            message.innerHTML = `<b><p>Please enter a valid email address</p></b>`;
         }
         else if (isValidEmail(email)){
             message.innerHTML = `<b><p>Thank you! Your email address ${email} has been added to our mailing list!</p></b>`;
