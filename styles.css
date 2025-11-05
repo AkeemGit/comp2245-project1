@@ -33,6 +33,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #6b7280;
+    font-weight: 400;
 }
 
 
@@ -172,7 +173,7 @@ nav ul li a:hover{
 }
 
 .newsletter .container{
-    padding: 100px;
+    padding: 70px;
     max-width: 450px;
 }
 
